@@ -185,17 +185,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Chino and Jona's Wedding",
+            title: "Kurt and Dianne's Wedding",
 
             // Event start date
-            start: new Date('Dec 06, 2021 15:00'),
+            start: new Date('Mar 05, 2022 16:30'),
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Dec 06, 2022 21:00'),
+            end: new Date('Mar 05, 2022 21:00'),
 
             // Event Address
-            address: 'Bella Rosa Gardens, Silang, Cavite',
+            address: 'The Manila Cathedral',
 
             // Event Description
             description: "We can't wait to see you on our big day."
@@ -259,7 +259,7 @@ $(document).ready(function () {
             }
         }
 
-        $.post('https://script.google.com/macros/s/AKfycbweXBBtMptgNdceL4EX_uhMqCRdYwtNzdmXmBYbjFZ94pmw_H9WjOHueAXuLypY38rpmA/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbztEsKrOhUV84kv-h3wZnOD4sEAmB9oyt-LHeMKOPqr15js07Yy_VdHZm0Vsl-0UOfs/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
